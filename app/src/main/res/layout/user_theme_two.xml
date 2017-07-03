@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:trianglify="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.manolovn.trianglify.TrianglifyView
+        android:id="@+id/trianglify_view_sample"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        trianglify:bleedX="80"
+        trianglify:bleedY="80"
+        trianglify:cellSize="175"
+        trianglify:colorGenerator="app.chetu.com.demoapp.MyColorGenerator"
+        trianglify:variance="100" />
+
+</RelativeLayout>

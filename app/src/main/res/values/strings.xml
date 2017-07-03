@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="link">https://github.com/flavioarfaria/KenBurnsView</string>
+    <string name="circular_seekbar">https://github.com/harjot-oberai/Croller</string>
+</resources>
